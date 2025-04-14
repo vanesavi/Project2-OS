@@ -25,10 +25,10 @@ worked on making sure customers wait their turn in the queue. they now only move
 wrapped that check in the lock too just to be safe  
 
 **april 12 11:50 am**  
-noticed that some of the print statements were showing up on the same line. it made the output super messy and hard to follow  
+noticed that some of the print statements were showing up on the same line. it made the output super messy and hard to follow. now kinda thinking it wouldve been easier if i had done c++, but i get very confused using c++. but maybe threads are a bit easier to manage there. 
 
 **april 12 12:00 pm**  
-added a print lock and made a safePrint function to fix that. now every print statement is locked so each line comes out clean and readable  
+added a print lock and made a safePrint function to fix that previous issue. now every print statement is locked so each line comes out clean and readable  
 
 **april 12 12:20 pm**  
 had a small issue with customerCount. python kept saying it was a local variable even though i defined it at the top. 
@@ -55,7 +55,7 @@ ran with ten customers. customer threads are entering in pairs like they should 
 manager and safe are working with no overlap  
 
 **april 13 1:00 pm**  
-bumped it up to twenty customers. still going smooth. fixed a few of the log messages to match the format from the sample output in the assignment  
+bumped it up to twenty customers. still going smooth. fixed a few of the log messages to match the format from the sample output in the assignment. made a couple of functions more efficient. 
 
 **april 13 2:00 pm**  
 ran the full fifty customer simulation. output is long but looks good. 
@@ -66,4 +66,4 @@ scrolled through the full log. everything lines up. tellers go back to waiting a
 even the final teller exits are printing when they are supposed to  
 
 **april 13 8:00 pm**  
-final run done. the logs are clean all semaphores are behaving and no weird thread behavior. feels good to be finished with this one
+final run done. the logs are clean all semaphores are behaving and no weird thread behavior. added final comments and made it seem more organized. 
